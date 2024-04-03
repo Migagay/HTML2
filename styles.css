@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to bottom, #ffcccc, #d1679c, #d2237b);
+    font-family: cursive;
+    background-blend-mode: color;
+}
+
+header {
+    background-color: #222;
+    height: 70px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1px;
+    font-weight: bold;
+    padding: 0 1px;
+    line-height: 1px;
+    background-color: blueviolet(189, 159, 212);
+}
+
+.nav-link {
+    color: aquamarine;
+    font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 10px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover {
+    color: rgb(238, 218, 137);
+}
+
+.seccion-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    font-size: 40px;
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: 200%;
+}
+
+h1 {
+    color: rgba(57, 15, 100, 0.89);
+}
+
+#fondo {
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/img/FONDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seleccion-imagenes-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.seleccion-imagenes-galeria img {
+    width: calc(33.33% - 20px);
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1500px;
+    margin: 0px auto;
+    font-family: Arial, sans-serif;
+}
+
+.info {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: aquamarine;
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.info ul {
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 10px;
+}
+
+.galeriaimgyo img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: #222;
+    color: aquamarine;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1 {
+    color: aquamarine;
+}
+
+.links-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.links-izquierda a {
+    color: aquamarine;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.links-izquierda img {
+    width: 40px;
+}
+
+.links-izquierda a:hover {
+    color: #fff;
+}
+
+.links-derecha {
+    display: flex;
+    align-items: center;
+}
+
+.links-derecha a {
+    color: #ddd;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.links-derecha img {
+    width: 40px;
+    height: 40px;
+}
+
+.links-derecha a:hover {
+    color: #fff;
+}
